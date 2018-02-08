@@ -1,0 +1,118 @@
+/* light navigation */
+header.header-appear nav.header-light, header.sticky nav.navbar-fixed-top.header-light, header.sticky nav.navbar-scroll-fixed-top.header-light {background-color: #0F2D41;box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.6); border-bottom: rgba(255, 255, 255, 0.18) 1px solid;}
+
+/* header navigation color and logo */
+header nav.navbar .navbar-nav > li > a, nav.navbar.bootsnav ul.nav > li > a{color: #232323;}
+header nav.navbar.white-link .navbar-nav > li > a, nav.navbar.bootsnav.white-link ul.nav > li > a,
+header nav.navbar.white-link .header-social-icon a,  nav.navbar.bootsnav.white-link .header-social-icon a,
+header nav.navbar.white-link .header-searchbar a,  nav.navbar.bootsnav.white-link .header-searchbar a,
+header nav.navbar.bootsnav ul.nav.white-link > li > a,  nav.navbar.white-link .heder-menu-button a {color: #0F2D41}
+
+header.sticky nav.navbar-fixed-top.header-light-transparent.white-link .navbar-nav > li > a,
+header.sticky nav.navbar-fixed-top.header-light-transparent.white-link .header-searchbar a,
+header.sticky nav.navbar-fixed-top.header-light-transparent.white-link .header-social-icon a,
+header.sticky nav.navbar-fixed-top.header-light.white-link .navbar-nav > li > a,
+header.sticky nav.navbar-fixed-top.header-light.white-link .header-searchbar a,
+header.sticky nav.navbar-fixed-top.header-light.white-link .header-social-icon a,
+header.sticky nav.navbar-fixed-top.header-light.white-link .header-menu-button a,
+header.sticky nav.navbar-fixed-top.header-light.white-link .header-menu-button a {color: #FFF}
+
+/* collapsed menu icon */
+.navbar-default .navbar-toggle .icon-bar, header.sticky .navbar-default.header-light .navbar-toggle .icon-bar, header.sticky .navbar-default.header-light-transparent .navbar-toggle .icon-bar {background: #232323; }
+.navbar-default.white-link .navbar-toggle .icon-bar, header.sticky .navbar-default.header-dark .navbar-toggle .icon-bar, header.sticky .navbar-default.header-dark-transparent .navbar-toggle .icon-bar {background: #DB0C0C;}
+
+/* menu items active */
+
+header nav.navbar.white-link .navbar-nav > li > a.active, nav.navbar.bootsnav.white-link ul.nav > li > a.active, header nav.navbar.bootsnav ul.nav.white-link > li > a.active, header.header-appear nav.header-dark-transparent .navbar-nav > li > a.active, header.header-appear nav.header-dark .navbar-nav > li > a.active, header.sticky nav.header-dark .navbar-nav > li > a.active, header.sticky nav.header-dark-transparent .navbar-nav > li > a.active {
+    color: #DB0C0C;
+}
+
+header.sticky nav.navbar.white-link .navbar-nav > li > a.active, header.sticky nav.navbar.bootsnav.white-link ul.nav > li > a.active {
+    color: #DB0C0C;
+}
+
+.scroll-top-arrow, .scroll-top-arrow:focus{
+    color:#FFF;
+    background: #DB0C0C;
+}
+
+@media (max-width: 991px) {
+nav.navbar.bootsnav .navbar-nav li, nav.navbar.bootsnav li.dropdown ul.mega-menu-full li.dropdown-header {
+    display: block;
+    clear: both;
+    border-bottom: 1px solid rgba(15, 45, 65, 0.38);
+    border-top: 0;
+    }
+
+    nav.navbar.bootsnav .navbar-nav {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(255, 255, 255);
+    }    
+}
+
+header nav .navbar-nav > li > a {
+    color: #232323;
+    font-size: 15px;
+    font-weight: 400 !important;
+    margin: 0 20px;
+    padding: 5px 0px 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.015em;
+}
+
+.text-middle-line:before {
+    border-bottom: 0px solid;
+}
+
+.nav-top-scroll {position: absolute; top: 0; z-index: 5;}
+header.sticky nav.nav-top-scroll {background-color: inherit;}
+header a.logo {display: inline-block; vertical-align: middle; padding-top: 5px;}
+header a.logo img {max-height:46px;}
+header .left-nav .sidebar-part1 a.logo img {max-height:inherit;}
+.logo-holder img {max-height: 46px;}
+
+/*typography*/
+
+.text-extra-large {
+    font-size: 50px;
+    line-height: 24px;
+}
+
+@media (max-width: 1199px) {
+    .text-extra-large {
+        font-size: 40px;
+        line-height: 24px;
+    }
+}
+
+.title-text {
+    color: #DB0C0C; 
+}
+
+.desc-text{
+    color: #FFF; 
+}
+.desc-text-blue{
+    color: #0F2D41; 
+}
+.desc-text-red{
+    color: #DB0C0C; 
+}
+.text-pillar-red {
+    border-left: #DB0C0C solid 5px;
+}
+
+.mobile-menu-icon {
+    color: #DB0C0C;
+}
+
+.item-icons {
+    color: #DB0C0C;
+}
+
+
+/*background colours*/
+.bg-extra-dark-blue {
+    background-color: #0F2D41;
+}
